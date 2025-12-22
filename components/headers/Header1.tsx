@@ -56,7 +56,7 @@ export default function Header1() {
           </AnimatedButton>
         ) : (
           <AnimatedButton
-            text="Say Hello"
+            text="Launch My Podcast"
             className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
             href="/contact"
           >
