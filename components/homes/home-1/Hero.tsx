@@ -18,7 +18,7 @@ export default function Hero() {
                     <Image
                       className="mxd-pulse"
                       alt="Hero Image"
-                      src="/img/hero/31_hero-img.webp"
+                      src="/img/hero/35_hero-img.webp"
                       width={700}
                       height={687}
                     />
@@ -143,7 +143,7 @@ export default function Hero() {
                     <Image
                       className="btn-rotating__image"
                       alt="Object"
-                      src="/img/icons/300x300_obj-btn-01.webp"
+                      src="/img/hero/36_hero-img.webp"
                       width={300}
                       height={300}
                     />
@@ -177,8 +177,8 @@ export default function Hero() {
                     "
                         />
                       </svg>
-                      <a href="https://dribbble.com/" target="_blank">
-                        Dribbble
+                      <a target="_blank">
+                        Authority
                       </a>
                     </li>
                     <li>
@@ -200,8 +200,8 @@ export default function Hero() {
                     "
                         />
                       </svg>
-                      <a href="https://www.behance.net/" target="_blank">
-                        Behance
+                      <a target="_blank">
+                        Amplification
                       </a>
                     </li>
                     <li>
@@ -223,8 +223,8 @@ export default function Hero() {
                     "
                         />
                       </svg>
-                      <a href="https://www.instagram.com/" target="_blank">
-                        Instagram
+                      <a target="_blank">
+                        Influence
                       </a>
                     </li>
                   </ul>
