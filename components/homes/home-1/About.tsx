@@ -8,10 +8,11 @@ export default function About() {
       <div className="mxd-container grid-container">
         {/* Block - About Description with Manifest Start */}
         <div className="mxd-block">
-          <div className="container-fluid px-0">
-            <div className="row gx-0">
-              <div className="col-12 col-xl-5 mxd-grid-item no-margin">
+          <div className="container-fluid px-5">
+            <div className="row gx-4 align-items-center">
+              <div className="col-12 col-xl-4 mxd-grid-item no-margin">
                 <div className="mxd-block__name name-manifest">
+                  <img src="/img/avatars/Karl Taft (1).png" alt="Karl Taft Image" width={300} height={300} className="me-4 mb-3" />
                   <p className="mxd-point-subtitle anim-uni-in-up">
                     <svg
                       version="1.1"
@@ -34,19 +35,21 @@ export default function About() {
                     c0,0,1.3-0.1,1.8-0.2c1,0,4,0,4,0c0.2,0,0.4-0.2,0.4-0.4C20,9.8,19.8,9.6,19.6,9.6L19.6,9.6z"
                       />
                     </svg>
-                    <span>Who we are</span>
+                    <span>Meet Your Host</span>
                   </p>
                 </div>
               </div>
-              <div className="col-12 col-xl-7 mxd-grid-item no-margin">
+              <div className="col-12 col-xl-8 mxd-grid-item no-margin">
                 <div className="mxd-block__content">
                   <div className="mxd-block__manifest">
                     <RevealText
                       as="p"
                       className="mxd-manifest reveal-type anim-uni-in-up"
                     >
-                      We are a creative digital agency specializing in
-                      innovative design and cutting-edge development.
+                      Karl Taft is the host of CEO Authors, our flagship podcast where founders, executives, and authors sit down for honest conversations about building companies, writing books, and turning their ideas into leverage. 
+                      <br />
+                      <br />
+                      He brings curiosity, experience, and direct, no-fluff questions—designed to help guests share real stories and practical lessons, not just PR soundbites. innovative design and cutting-edge development.
                     </RevealText>
                     <div className="mxd-manifest__controls anim-uni-in-up">
                       <AnimatedButton
