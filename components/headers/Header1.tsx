@@ -9,6 +9,8 @@ import Image from "next/image";
 export default function Header1() {
   const pathname = usePathname();
   const [isHidden, setIsHidden] = useState(false);
+  const [isDarkLogo, setIsDarkLogo] = useState(false);
+
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
@@ -19,6 +21,30 @@ export default function Header1() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    // set initial value from <html color-scheme> or localStorage
+    const updateFromScheme = () => {
+      const scheme = document.documentElement.getAttribute("color-scheme") || (localStorage.getItem("color-scheme") as string) || "light";
+      setIsDarkLogo(scheme === "dark");
+    };
+
+    updateFromScheme();
+
+    // observe attribute changes to respond to the ThemeSwitcherButton toggles
+    const observer = new MutationObserver(() => updateFromScheme());
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["color-scheme"] });
+
+    const handleStorage = (e: StorageEvent) => {
+      if (e.key === "color-scheme") updateFromScheme();
+    };
+    window.addEventListener("storage", handleStorage);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("storage", handleStorage);
+    };
+  }, []);
+
   return (
     <header id="header" className={`mxd-header ${isHidden ? "is-hidden" : ""}`}>
       {/* header logo */}
@@ -26,11 +52,11 @@ export default function Header1() {
         <Link href={`/home-main`} className="mxd-logo">
           {/* logo icon */}
           <Image
-            src="/img/favicon/Epic header W.png"
+            src={isDarkLogo ? "/img/favicon/Epic header W.png" : "/img/favicon/Epic header B.png"}
             alt="Epic Studio Group logo"
-            width={56}
-            height={56}
-            className="mxd-logo__image"
+            width={110}
+            height={110}
+            className="mxd-logo__image mxd-logo__image--large"
             priority
           />
           {/* logo text */}
