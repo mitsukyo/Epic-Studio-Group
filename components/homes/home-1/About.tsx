@@ -74,15 +74,23 @@ export default function About() {
                       <br />
                       He brings curiosity, experience, and direct, no-fluff questions—designed to help guests share real stories and practical lessons, not just PR soundbites. innovative design and cutting-edge development.
                     </RevealText>
-                    <div className="mxd-manifest__controls anim-uni-in-up">
-                      {/* <AnimatedButton
-                        text="Say Hello"
+                    <div className="mxd-manifest__controls anim-uni-in-up" style={{ display: "flex", gap: "5rem", alignItems: "center"}}>
+                      <AnimatedButton
+                        text="About Karl Taft"
                         className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
-                        href={`/contact`}
+                        href={`/`}
                       >
                         <i className="ph-bold ph-arrow-up-right" />
-                      </AnimatedButton> */}
+                      </AnimatedButton>
+                      <AnimatedButton
+                        text="Be a Guest on CEO Authors"
+                        className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
+                        href={`/`}
+                      >
+                        {/* <i className="ph-bold ph-arrow-up-right" /> */}
+                      </AnimatedButton>
                     </div>
+                    
                   </div>
                 </div>
               </div>
