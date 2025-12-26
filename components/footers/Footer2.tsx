@@ -202,8 +202,8 @@ export default function Footer2({ text = "rayosttudio" }: { text?: string }) {
             c0,0,1.3-0.1,1.8-0.2c1,0,4,0,4,0c0.2,0,0.4-0.2,0.4-0.4C20,9.8,19.8,9.6,19.6,9.6L19.6,9.6z"
                 />
               </svg>
-              <a href="mailto:example@example.com?subject=Message%20from%20your%20site">
-                hello@rayostudio.com
+              <a href="mailto:getstarted@epicstudiogroup.com?subject=Message%20from%20your%20site">
+                getstarted@epicstudiogroup.com
               </a>
             </p>
           </div>
