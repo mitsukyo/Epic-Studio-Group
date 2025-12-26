@@ -114,7 +114,7 @@ export default function Facts() {
                       <div className={item.imageClass}>
                         <Image
                           alt="Illustration"
-                          src="/img/your-illustration.png"
+                          src="/img/facts/Studio Fact Image.png"
                           width={item.imageWidth}
                           height={item.imageHeight}
                         />

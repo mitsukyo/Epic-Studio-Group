@@ -9,7 +9,7 @@ export default function Marquee() {
           <VelocityMarquee className="marquee marquee-right--gsap muted-extra">
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Design</p>
+              <p className="marquee__text">Launch Your Podcast</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -33,7 +33,7 @@ export default function Marquee() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Development</p>
+              <p className="marquee__text">Personal Brand</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -57,7 +57,7 @@ export default function Marquee() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Branding</p>
+              <p className="marquee__text">Honest Conversations</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -81,7 +81,7 @@ export default function Marquee() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">eCommerce</p>
+              <p className="marquee__text">Post-Production Team</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -105,7 +105,7 @@ export default function Marquee() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Mobile Apps</p>
+              <p className="marquee__text">Real Stories</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
