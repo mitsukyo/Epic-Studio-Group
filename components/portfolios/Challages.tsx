@@ -12,7 +12,9 @@ export default function Challages() {
             <div className="col-12 col-xl-5 mxd-grid-item no-margin">
               <div className="mxd-project__subtitle">
                 <RevealText as="h2" className="reveal-type anim-uni-in-up">
-                  Challenge
+                  Launch 
+                  <br />
+                  Your Podcast
                 </RevealText>
               </div>
             </div>
@@ -20,16 +22,26 @@ export default function Challages() {
               <div className="mxd-project__content">
                 <div className="mxd-project__paragraph">
                   <p className="t-large t-bright anim-uni-in-up">
-                    Donec maximus lorem quam, a aliquam erat aliquam quis. Sed
-                    accumsan sagittis condimentum. Proin eu nulla.
+                    You talk. We handle everything else.
+                    <br />
+                    Starts at $1,300/month
                   </p>
-                  <p className="anim-uni-in-up">
+                  {/* <p className="anim-uni-in-up"> */}
+                    <ul className="anim-uni-in-up" style={{ marginLeft: 20, listStyleType: 'square' }}>
+                      <li>We design your show concept and angle</li>
+                      <li>We create your podcast name, artwork, and structure</li>
+                      <li>You record — we guide your remote setup</li>
+                      <li>We edit the audio/video and clean up the sound</li>
+                      <li>We write basic show notes and publish to major platforms</li>
+                    </ul>
+                  {/* </p> */}
+                  {/* <p className="anim-uni-in-up">
                     Nunc vel ligula tincidunt, fermentum velit ac, sodales eros.
                     Vivamus ac leo in arcu accumsan condimentum. Nullam ac est
                     quis dolor scelerisque interdum in at risus. Pellentesque
                     mattis est vel maximus posuere. Integer tristique ipsum
                     velit, vitae gravida purus laoreet.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

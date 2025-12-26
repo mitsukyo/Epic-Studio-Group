@@ -5,6 +5,7 @@ import Footer2 from "@/components/footers/Footer2";
 import About from "@/components/homes/home-1/About";
 import Approch from "@/components/common/Approch";
 import Awards from "@/components/common/Awards";
+import Portfolios1 from "@/components/portfolios/Portfolios1";
 
 import Devider from "@/components/homes/home-1/Devider";
 import Facts from "@/components/common/Facts";
@@ -17,6 +18,11 @@ import Projects from "@/components/homes/home-1/Projects";
 import ServicesStack from "@/components/homes/home-1/ServicesStack";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import { Metadata } from "next";
+import DetailsHero from "@/components/portfolios/DetailsHero";
+import Challages from "@/components/portfolios/Challages";
+import Solutions from "@/components/portfolios/Solutions";
+import Feedback from "@/components/portfolios/Feedback";
+import NextPrevNavigation from "@/components/portfolios/NextPrevNavigation";
 export const metadata: Metadata = {
   title:
     "Main || Epic Group Studio - We turn CEO Authors into Media Brands",
@@ -28,9 +34,25 @@ export default function HomeMainPage() {
     <>
       <main id="mxd-page-content" className="mxd-page-content">
         <Hero />
-        <Devider />
+        <Portfolios1 />
+        {/* <Devider /> */}
         <About />
         <Facts />
+        <main
+        id="mxd-page-content"
+        className="mxd-page-content inner-page-content">
+         <DetailsHero />
+            <div className="mxd-section mxd-project overflow-hidden">
+              <div className="mxd-container grid-container">
+                <Challages />
+                <Solutions />
+                <Feedback />
+                <NextPrevNavigation />
+              </div>
+            </div>
+           <Cta /> 
+        </main>
+        
         <Marquee />
         <Projects />
         <ServicesStack />
