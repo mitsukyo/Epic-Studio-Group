@@ -77,7 +77,7 @@ export default function Challages() {
                 </div>
               </div>
               {/* item */}
-              <div className="col-12 col-xl-7 mxd-project-cards__item mxd-grid-item anim-uni-scale-in-right">
+              {/* <div className="col-12 col-xl-7 mxd-project-cards__item mxd-grid-item anim-uni-scale-in-right">
                 <div className="mxd-project-cards__inner bg-base-tint radius-m">
                   <Image
                     alt="Project Preview"
@@ -86,9 +86,9 @@ export default function Challages() {
                     height={1000}
                   />
                 </div>
-              </div>
+              </div> */}
               {/* item */}
-              <div className="col-12 col-xl-5 mxd-project-cards__item mxd-grid-item anim-uni-scale-in-left">
+              {/* <div className="col-12 col-xl-5 mxd-project-cards__item mxd-grid-item anim-uni-scale-in-left">
                 <div className="mxd-project-cards__inner bg-base-tint radius-m">
                   <Image
                     alt="Project Preview"
@@ -97,7 +97,7 @@ export default function Challages() {
                     height={1200}
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

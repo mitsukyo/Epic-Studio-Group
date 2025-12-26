@@ -474,21 +474,19 @@
   "projects10": [
     {
       "id": 48,
-      "image": "/img/works/preview/1920x1080_prv-04.webp",
-      "tags": ["Brand", "Illustrations", "Web"],
-      "title": "Studio template"
+      "tags": ["Bestselling Author", "Keynote Speaker", "Service Culture"]
     },
     {
       "id": 49,
       "image": "/img/works/preview/1920x1080_prv-01.webp",
-      "tags": ["Sora", "AI", "Editorial"],
-      "title": "AI Experiments"
+      "tags": ["Environmental Psychologist", "Author", "Founder"],
+      "title": "Strategic Advisor of Envirosell Global LLC,"
     },
     {
       "id": 50,
       "image": "/img/works/preview/1920x1080_prv-05.webp",
-      "tags": ["Design", "UI/UX", "Android"],
-      "title": "Mobile app design"
+      "tags": ["Author", "Cognitive Scientist", "Futurist"],
+      "title": "Advocate for Harmony"
     }
   ]
 }

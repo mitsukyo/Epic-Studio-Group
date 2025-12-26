@@ -26,7 +26,7 @@ export default function DetailsHero() {
               <div className="col-12 col-xl-10 mxd-grid-item no-margin">
                 <div className="mxd-block__content">
                   <div className="mxd-block__inner-headline loading__item">
-                    <h1 className="inner-headline__title">Test Studio</h1>
+                    <h1 className="inner-headline__title">Studio template</h1>
                   </div>
                 </div>
               </div>
