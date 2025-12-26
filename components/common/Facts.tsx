@@ -10,7 +10,7 @@ export default function Facts() {
   return (
     <div className="mxd-section padding-grid-pre-mtext overflow-hidden">
       <div className="mxd-container grid-container">
-        {/* Block - Statistics Cards Start */}
+        Core Offers
         <div className="mxd-block">
           <div className="mxd-stats-cards">
             <div className="container-fluid px-0">
@@ -63,7 +63,7 @@ export default function Facts() {
                                 <div className="mxd-avatars__item" key={aIdx}>
                                   <Image
                                     alt={avatar.alt || "Avatar"}
-                                    src={avatar.src || ""}
+                                    src="/img/facts/300x300 W.png"
                                     width={avatar.width || 60}
                                     height={avatar.height || 60}
                                   />
@@ -114,7 +114,7 @@ export default function Facts() {
                       <div className={item.imageClass}>
                         <Image
                           alt="Illustration"
-                          src={item.image}
+                          src="/img/your-illustration.png"
                           width={item.imageWidth}
                           height={item.imageHeight}
                         />

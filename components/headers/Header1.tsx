@@ -88,6 +88,7 @@ export default function Header1() {
           >
             <i className="ph-bold ph-arrow-up-right" />
           </AnimatedButton>
+          
         )}
       </div>
     </header>
