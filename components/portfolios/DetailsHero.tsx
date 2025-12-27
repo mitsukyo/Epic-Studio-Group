@@ -12,7 +12,7 @@ export default function DetailsHero() {
               <div className="col-12 col-xl-2 mxd-grid-item no-margin">
                 <div className="mxd-block__name name-project-link">
                   <AnimatedButton
-                    text="Project Page"
+                    text="Core Offers"
                     as={"a"}
                     className="btn btn-anim btn-line-small btn-muted slide-right-up"
                     href="#"
@@ -23,10 +23,10 @@ export default function DetailsHero() {
               </div>
               {/* Inner Headline Name Start */}
               {/* Inner Headline Content Start */}
-              <div className="col-12 col-xl-10 mxd-grid-item no-margin">
+              <div className="col-10 col-xl-10 mxd-grid-item no-margin">
                 <div className="mxd-block__content">
                   <div className="mxd-block__inner-headline">
-                    <h1 className="inner-headline__title">Studio template</h1>
+                    <h1 className="inner-headline__title">A Podcast System Built Around Where You Are</h1>
                   </div>
                 </div>
               </div>
@@ -41,60 +41,28 @@ export default function DetailsHero() {
               <div className="col-12 col-xl-6 mxd-grid-item no-margin">
                 <div className="inner-headline__paragraph">
                   <p>
-                    Inspiring ideas, creative insights, and the latest in design
-                    and tech. Fueling innovation for your digital journey.
+                    Not everyone starts in the same place.
+                    <br />
+                    Some are still shaping the idea. Others already have episodes recorded and just need a reliable team to handle the back end.
+                     <br />
+                     <br /> 
+                    That is why we offer two clear ways to work with us...
                   </p>
                 </div>
-                <div className="inner-headline__data">
-                  <div className="mxd-data-list">
-                    <div className="container-fluid p-0">
-                      <div className="row g-0">
-                        <div className="col-12 col-md-6 col-xl-5 mxd-data-list__column loading__item">
-                          <div className="mxd-data-list__item">
-                            <p className="mxd-data-list__name">Client</p>
-                            <p className="mxd-data-list__content">Mix Design</p>
-                          </div>
-                          <div className="mxd-data-list__item">
-                            <p className="mxd-data-list__name">Services</p>
-                            <p className="mxd-data-list__content">
-                              Web development
-                            </p>
-                          </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-xl-5 mxd-data-list__column loading__item">
-                          <div className="mxd-data-list__item">
-                            <p className="mxd-data-list__name">Industries</p>
-                            <p className="mxd-data-list__content">
-                              HTML template
-                            </p>
-                          </div>
-                          <div className="mxd-data-list__item">
-                            <p className="mxd-data-list__name">Date</p>
-                            <p className="mxd-data-list__content">
-                              January 2025
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
               {/* Inner Headline Paragraph & Data End */}
               {/* Inner Headline Tags Start */}
               <div className="col-12 col-xl-4 mxd-grid-item no-margin">
-                <div className="inner-headline__tags loading__fade">
+                <div className="inner-headline__tags">
                   <span className="tag tag-default tag-outline-medium">
-                    Web design
+                    Podcast Production
                   </span>
                   <span className="tag tag-default tag-outline-medium">
-                    UI/UX design
+                    Content Repurposing
                   </span>
                   <span className="tag tag-default tag-outline-medium">
-                    Development
-                  </span>
-                  <span className="tag tag-default tag-outline-medium">
-                    Branding
+                    Consistent Publishing
                   </span>
                 </div>
               </div>

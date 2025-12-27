@@ -36,7 +36,9 @@ export default function HomeMainPage() {
         <Portfolios1 />
         {/* <Devider /> */}
         <Host />
-        <Facts />
+        {/* <Facts /> */}
+        
+
         
         <main
         id="mxd-page-content"
@@ -44,6 +46,7 @@ export default function HomeMainPage() {
          <DetailsHero />
             <div className="mxd-section mxd-project overflow-hidden">
               <div className="mxd-container grid-container">
+                <Marquee />
                 <Challages />
                 <Solutions />
                 <Feedback />
@@ -53,7 +56,6 @@ export default function HomeMainPage() {
            <Cta /> 
         </main>
         
-        <Marquee />
         <Projects />
         <ServicesStack />
         <Approch />
