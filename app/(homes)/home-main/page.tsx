@@ -46,7 +46,6 @@ export default function HomeMainPage() {
          <DetailsHero />
             <div className="mxd-section mxd-project overflow-hidden">
               <div className="mxd-container grid-container">
-                
                 <LaunchPodcast />
                 <Solutions />
                 <Feedback />

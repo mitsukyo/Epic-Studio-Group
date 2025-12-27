@@ -27,7 +27,7 @@ export default function LaunchPodcast() {
                 <div className="mxd-project-cards__inner align-end bg-base-tint radius-m">
                   <Image
                     alt="Project Preview"
-                    src="/img/works/1400x1000_prj-details-01.webp"
+                    src="/img/offers/LYP 2.svg"
                     width={1400}
                     height={1000}
                   />
