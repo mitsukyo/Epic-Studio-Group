@@ -69,7 +69,7 @@ export default function Host() {
                       className="mxd-manifest reveal-type anim-uni-in-up mxd-manifest__desc"
                       style={{ fontSize: "2.5rem", lineHeight: "1.6", textAlign: "justify", paddingLeft: 0, paddingRight: 0, margin: "0 auto" }}
                     >
-                      Karl Taft is the host of CEO Authors, our flagship podcast where founders, executives, and authors sit down for honest conversations about building companies, writing books, and turning their ideas into leverage. 
+                      <span style={{fontWeight:"bold", color:"var(--accent--light)"}}>Karl Taft</span> is the host of CEO Authors, our flagship podcast where founders, executives, and authors sit down for honest conversations about building companies, writing books, and turning their ideas into leverage. 
                       <br />
                       <br />
                       He brings curiosity, experience, and direct, no-fluff questions—designed to help guests share real stories and practical lessons, not just PR soundbites. innovative design and cutting-edge development.
@@ -85,7 +85,7 @@ export default function Host() {
                       <AnimatedButton
                         text="Be a Guest on CEO Authors"
                         className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
-                        href={`/`}
+                        href={`/`} 
                       >
                         {/* <i className="ph-bold ph-arrow-up-right" /> */}
                       </AnimatedButton>
