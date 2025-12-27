@@ -45,7 +45,7 @@ export default function HomeMainPage() {
               <div className="mxd-container grid-container">
                 <LaunchPodcast />
                 <DoneForYou />
-                <Feedback />
+                {/* <Feedback /> */}
               </div>
             </div>
            <Cta /> 
