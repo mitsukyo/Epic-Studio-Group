@@ -33,12 +33,9 @@ export default function HomeMainPage() {
       <main id="mxd-page-content" className="mxd-page-content">
         <Hero />
         <Portfolios1 />
-        
         {/* <Devider /> */}
         <Host />
         {/* <Facts /> */}
-        
-
         <Marquee />
         <main
         id="mxd-page-content"

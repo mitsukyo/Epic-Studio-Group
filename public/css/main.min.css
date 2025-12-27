@@ -20381,6 +20381,9 @@ form textarea:required:valid {
   gap: 2rem;
   margin-top: 1.8rem;
 }
+.mxd-project__paragraph.section-4-headline{
+  gap: 1.6rem;
+}
 @media only screen and (min-width: 768px) {
   .mxd-project__paragraph {
     margin-top: 1.3rem;

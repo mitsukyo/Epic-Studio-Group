@@ -51,12 +51,12 @@ export default function LaunchPodcast() {
             </div>
             <div className="col-12 col-xl-6 mxd-grid-item no-margin">
               <div className="mxd-project__content">
-                <div className="mxd-project__paragraph">
+                <div className="mxd-project__paragraph section-4-headline medium-text">
                   <p className="t-large t-bright anim-uni-in-up" style={{ color: "var(--accent)" }}>
                     Want to Launch Your Podcast? We&apos;ll handle everything else. 
-                    <p className="anim-uni-in-up">
-                      Starts at $1,300/month
-                    </p>
+                  </p>
+                  <p className="anim-uni-in-up">
+                  Starts at $1,300/month
                   </p>
                     <ul className="anim-uni-in-up" style={{ marginLeft: 20, listStyleType: 'square' }}>
                       <li>We design your show concept and angle</li>

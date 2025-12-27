@@ -34,7 +34,7 @@ export default function Host() {
                     </svg>
                     <span>  Meet Your Host</span>
                 <div className="mxd-block__name name-manifest">
-                  <img src="/img/avatars/Karl Taft (1).png" alt="Karl Taft Image" width={500} height={500} className="me-6 mb-7" />
+                  <img src="/img/avatars/Karl Taft_Pic.png" alt="Karl Taft Image" width={500} height={500} className="me-6 mb-7" />
                   <p className="mxd-point-subtitle anim-uni-in-up">
                     {/* <svg
                       version="1.1"

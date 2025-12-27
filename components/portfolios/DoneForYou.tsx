@@ -30,12 +30,12 @@ export default function DoneForYou() {
             </div>
             <div className="col-12 col-xl-6 mxd-grid-item no-margin">
               <div className="mxd-project__content">
-                <div className="mxd-project__paragraph medium-text">
+                <div className="mxd-project__paragraph section-4-headline medium-text">
                   <p className="t-large t-bright anim-uni-in-up"style={{ color: "var(--accent)" }}>
                     Already Have a Podcast? We&apos;ll be your post-production team.
-                    <p className="anim-uni-in-up">
-                      Starts at $300/episode
-                    </p>
+                  </p>
+                  <p className="t-bright anim-uni-in-up">
+                    Starts at $300/episode
                   </p>  
                   <ul className="anim-uni-in-up" style={{ marginLeft: 20, listStyleType: 'square' }}>
                       <li>You send us raw recordings; we edit and polish</li>
