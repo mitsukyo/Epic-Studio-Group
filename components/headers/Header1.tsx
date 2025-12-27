@@ -71,22 +71,24 @@ export default function Header1() {
       <div className="mxd-header__controls loading__fade">
         <ThemeSwitcherButton />
 
-        {pathname == "/" || pathname == "/preview" ? (
-          <AnimatedButton
-            text="Purchase"
-            className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
-            href="https://themeforest.net/user/ib-themes/portfolio"
-            target="_blank"
-          >
-            <i className="ph-bold ph-shopping-cart-simple" />
-          </AnimatedButton>
-        ) : (
+        {(
           <AnimatedButton
             text="Launch My Podcast"
             className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
-            href="/contact"
+            href="/"
           >
-            <i className="ph-bold ph-arrow-up-right" />
+            {/* <i className="ph-bold ph-arrow-up-right" /> */}
+          </AnimatedButton>
+          
+        )}
+
+        {(
+          <AnimatedButton
+            text="I Need Post-Production"
+            className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
+            href="/"
+          >
+            {/* <i className="ph-bold ph-arrow-up-right" /> */}
           </AnimatedButton>
           
         )}
