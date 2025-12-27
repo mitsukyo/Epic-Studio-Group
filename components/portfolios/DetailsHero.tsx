@@ -10,7 +10,7 @@ export default function DetailsHero() {
             <div className="row gx-0">
               {/* Inner Headline Name Start */}
               <div className="col-12 col-xl-2 mxd-grid-item no-margin">
-                <div className="mxd-block__name name-project-link loading__fade">
+                <div className="mxd-block__name name-project-link">
                   <AnimatedButton
                     text="Project Page"
                     as={"a"}
@@ -25,7 +25,7 @@ export default function DetailsHero() {
               {/* Inner Headline Content Start */}
               <div className="col-12 col-xl-10 mxd-grid-item no-margin">
                 <div className="mxd-block__content">
-                  <div className="mxd-block__inner-headline loading__item">
+                  <div className="mxd-block__inner-headline">
                     <h1 className="inner-headline__title">Studio template</h1>
                   </div>
                 </div>
@@ -39,7 +39,7 @@ export default function DetailsHero() {
               <div className="col-12 col-xl-2" />
               {/* Inner Headline Paragraph & Data Start */}
               <div className="col-12 col-xl-6 mxd-grid-item no-margin">
-                <div className="inner-headline__paragraph loading__item">
+                <div className="inner-headline__paragraph">
                   <p>
                     Inspiring ideas, creative insights, and the latest in design
                     and tech. Fueling innovation for your digital journey.

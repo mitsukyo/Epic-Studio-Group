@@ -2,12 +2,10 @@ import Blogs from "@/components/common/Blogs";
 import Cta from "@/components/common/Cta";
 import Footer2 from "@/components/footers/Footer2";
 
-import About from "@/components/homes/home-1/About";
-import Approch from "@/components/common/Approch";
+  import Approch from "@/components/common/Approch";
 import Awards from "@/components/common/Awards";
 import Portfolios1 from "@/components/portfolios/Portfolios1";
 
-import Devider from "@/components/homes/home-1/Devider";
 import Facts from "@/components/common/Facts";
 import Hero from "@/components/homes/home-1/Hero";
 import Marquee from "@/components/homes/home-1/Marquee";
@@ -23,6 +21,7 @@ import Challages from "@/components/portfolios/Challages";
 import Solutions from "@/components/portfolios/Solutions";
 import Feedback from "@/components/portfolios/Feedback";
 import NextPrevNavigation from "@/components/portfolios/NextPrevNavigation";
+import Host from "@/components/homes/home-1/Host";
 export const metadata: Metadata = {
   title:
     "Main || Epic Group Studio - We turn CEO Authors into Media Brands",
@@ -36,8 +35,9 @@ export default function HomeMainPage() {
         <Hero />
         <Portfolios1 />
         {/* <Devider /> */}
-        <About />
+        <Host />
         <Facts />
+        
         <main
         id="mxd-page-content"
         className="mxd-page-content inner-page-content">

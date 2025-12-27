@@ -2,7 +2,7 @@ import AnimatedButton from "@/components/animation/AnimatedButton";
 import RevealText from "@/components/animation/RevealText";
 import Link from "next/link";
 
-export default function About() {
+export default function Host() {
   return (
     <div className="mxd-section padding-pre-grid">
       <div className="mxd-container grid-container">
