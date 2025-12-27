@@ -57,7 +57,6 @@ export default function LaunchPodcast() {
                     <br />
                     Starts at $1,300/month
                   </p>
-                  {/* <p className="anim-uni-in-up"> */}
                     <ul className="anim-uni-in-up" style={{ marginLeft: 20, listStyleType: 'square' }}>
                       <li>We design your show concept and angle</li>
                       <li>We create your podcast name, artwork, and structure</li>
@@ -71,7 +70,6 @@ export default function LaunchPodcast() {
                         className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
                         href={`/`}
                       >
-                        {/* <i className="ph-bold ph-arrow-up-right" /> */}
                       </AnimatedButton>
                     </div>
                 </div>
@@ -80,10 +78,6 @@ export default function LaunchPodcast() {
           </div>
         </div>
       </div>
-      {/* Project Block - Challenge Description with H2 Title and Paragraph End */}
-      {/* Project Block - Images Cards Start */}
-      
-      {/* Project Block - Images Cards End */}
     </>
   );
 }
