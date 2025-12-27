@@ -6,7 +6,7 @@ import DetailsHero from "@/components/portfolios/DetailsHero";
 import Feedback from "@/components/portfolios/Feedback";
 import NextPrevNavigation from "@/components/portfolios/NextPrevNavigation";
 import ParallaxDivider2 from "@/components/portfolios/ParallaxDivider2";
-import Solutions from "@/components/portfolios/Solutions";
+import Solutions from "@/components/portfolios/DoneForYou";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
