@@ -66,7 +66,7 @@ export default function LaunchPodcast() {
                     </ul>
                     <div className="mxd-manifest__controls anim-uni-in-up" style={{ display: "flex", gap: "5rem", alignItems: "center"}}>
                       <AnimatedButton
-                        text="Be a Guest on CEO Authors"
+                        text="Launch My Podcast"
                         className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
                         href={`/`}
                       >
