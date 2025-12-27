@@ -17,11 +17,10 @@ import ServicesStack from "@/components/homes/home-1/ServicesStack";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import { Metadata } from "next";
 import DetailsHero from "@/components/portfolios/DetailsHero";
-import Challages from "@/components/portfolios/Challages";
 import Solutions from "@/components/portfolios/Solutions";
 import Feedback from "@/components/portfolios/Feedback";
-import NextPrevNavigation from "@/components/portfolios/NextPrevNavigation";
 import Host from "@/components/homes/home-1/Host";
+import LaunchPodcast from "@/components/portfolios/LaunchPodcast";
 export const metadata: Metadata = {
   title:
     "Main || Epic Group Studio - We turn CEO Authors into Media Brands",
@@ -48,7 +47,7 @@ export default function HomeMainPage() {
             <div className="mxd-section mxd-project overflow-hidden">
               <div className="mxd-container grid-container">
                 
-                <Challages />
+                <LaunchPodcast />
                 <Solutions />
                 <Feedback />
               </div>

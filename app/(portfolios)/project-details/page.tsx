@@ -1,7 +1,7 @@
 import Cta from "@/components/common/Cta";
 import Footer2 from "@/components/footers/Footer2";
 
-import Challages from "@/components/portfolios/Challages";
+import Challages from "@/components/portfolios/LaunchPodcast";
 import DetailsHero from "@/components/portfolios/DetailsHero";
 import Feedback from "@/components/portfolios/Feedback";
 import NextPrevNavigation from "@/components/portfolios/NextPrevNavigation";
