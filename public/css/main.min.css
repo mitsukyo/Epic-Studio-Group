@@ -6335,6 +6335,23 @@ form textarea:required:valid {
   position: relative;
   width: 100%;
 }
+
+.mxd-promo__note {
+  position: relative;
+  width: 50%;
+  font-size: 1.5rem;
+  margin-top: 1.3rem;
+  /* color: var(--t-opp-medium); */
+  
+}.mxd-promo__note_subheadline {
+  position: relative;
+  width: 50%;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  color: var(--t-opp-medium);
+  
+}
+
 .mxd-footer__fullwidth-text {
   position: relative;
   width: 100%;

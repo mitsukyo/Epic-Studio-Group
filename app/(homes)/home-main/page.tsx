@@ -51,12 +51,12 @@ export default function HomeMainPage() {
            <Cta /> 
         </main>
 
-        <Projects />
-        <ServicesStack />
-        <Approch />
+        {/* <Projects /> */}
+        {/* <ServicesStack /> */}
+        {/* <Approch />
         <MarqueeSlider />
         <Awards />
-        <Testimonials />
+        <Testimonials /> */}
         <MarqueeSection2 />
         <Partners />
         <Blogs />
