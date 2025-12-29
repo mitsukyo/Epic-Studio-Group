@@ -33,7 +33,7 @@ export default function MarqueeSection2() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Our Partners</p>
+              <p className="marquee__text">Start Your Podcast Now</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -57,7 +57,7 @@ export default function MarqueeSection2() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Our Partners</p>
+              <p className="marquee__text">Start Your Podcast Now</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -81,7 +81,7 @@ export default function MarqueeSection2() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Our Partners</p>
+              <p className="marquee__text">Start Your Podcast Now</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"

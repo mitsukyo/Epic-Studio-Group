@@ -57,10 +57,10 @@ export default function HomeMainPage() {
         <MarqueeSlider />
         <Awards />
         <Testimonials /> */}
-        <MarqueeSection2 />
+        {/* <MarqueeSection2 />
         <Partners />
         <Blogs />
-        <Cta />
+        <Cta /> */}
       </main>
       <Footer2 />
     </>
