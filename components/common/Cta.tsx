@@ -53,7 +53,7 @@ export default function Cta() {
                 </div>
               </div>
               {/* parallax images */}
-              <div className="mxd-promo__images">
+              {/* <div className="mxd-promo__images">
                 <Image
                   className="promo-image promo-image-1"
                   alt="Image"
@@ -68,7 +68,7 @@ export default function Cta() {
                   width={600}
                   height={601}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
