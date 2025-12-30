@@ -16,7 +16,7 @@ export default function About() {
                 <div className="mxd-block__image">
                   <Image
                     alt="Photo"
-                    src="/img/avatars/1400x1400_ava-01.webp"
+                    src="/img/avatars/H_Karl_Taft_1.webp"
                     width={1400}
                     height={1400}
                   />
@@ -28,18 +28,32 @@ export default function About() {
                     <RevealText
                       as="p"
                       className="mxd-manifest mxd-manifest-l reveal-type"
+                      style={{ fontSize: "3rem", lineHeight: "2", marginTop:"15rem" }} 
                     >
-                      As a digital illustrator, I&apos;ve always been fascinated
-                      by the intersection of art and technology.
+                      <span className="mxd-manifest__label">Meet Your Host</span>
+                      <br />
+                      <strong className="mxd-manifest__headline" style={{fontSize: "5rem", fontWeight:"bold", color:"var(--accent--light)", display:"block", marginTop:"0.5rem"}}>Karl Taft, Host of CEO Authors</strong>
+                      <br />
+                      <br />
+                      <p style={{ fontSize: "2rem", lineHeight: "1.8", marginBottom: "1rem" }}> 
+                      Karl Taft is the host of CEO Authors, our flagship podcast where founders, executives, and authors sit down for honest conversations about building companies, 
+                      writing books, and turning their ideas into leverage. He brings curiosity, experience, and direct, no-fluff questions—designed to help guests share real stories 
+                      and practical lessons, not just PR soundbites.
+                      </p>
                     </RevealText>
-                    <div className="mxd-manifest__controls">
+                    <div className="mxd-manifest__controls" >
                       <AnimatedButton
-                        text="About Me"
+                        text="About Karl Taft"
                         className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
                         href={`/about-me`}
                       >
                         <i className="ph-bold ph-arrow-up-right" />
                       </AnimatedButton>
+                      <AnimatedButton
+                        text="Be a Guest on CEO Authors"
+                        className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
+                        href={`/contact`}
+                      />
                     </div>
                   </div>
                   <div className="mxd-block__decoration anim-uni-in-up">
@@ -50,76 +64,7 @@ export default function About() {
                       height={96}
                     />
                   </div>
-                  <div className="mxd-links-lines">
-                    {/* item */}
-                    <div className="mxd-links-lines__item">
-                      <div className="mxd-links-lines__divider anim-uni-in-up" />
-                      <a
-                        className="mxd-links-lines__link anim-uni-in-up"
-                        href="https://medium.com/"
-                        target="_blank"
-                      >
-                        <h6 className="mxd-links-lines__title">
-                          Some article on Medium
-                        </h6>
-                        <div className="mxd-links-lines__icon">
-                          <i className="ph ph-arrow-up-right" />
-                        </div>
-                      </a>
-                      <div className="mxd-links-lines__divider anim-uni-in-up" />
-                    </div>
-                    {/* item */}
-                    <div className="mxd-links-lines__item">
-                      <div className="mxd-links-lines__divider anim-uni-in-up" />
-                      <a
-                        className="mxd-links-lines__link anim-uni-in-up"
-                        href="https://www.awwwards.com/"
-                        target="_blank"
-                      >
-                        <h6 className="mxd-links-lines__title">
-                          Awwwards nomination
-                        </h6>
-                        <div className="mxd-links-lines__icon">
-                          <i className="ph ph-arrow-up-right" />
-                        </div>
-                      </a>
-                      <div className="mxd-links-lines__divider anim-uni-in-up" />
-                    </div>
-                    {/* item */}
-                    <div className="mxd-links-lines__item">
-                      <div className="mxd-links-lines__divider anim-uni-in-up" />
-                      <a
-                        className="mxd-links-lines__link anim-uni-in-up"
-                        href="https://www.behance.net/"
-                        target="_blank"
-                      >
-                        <h6 className="mxd-links-lines__title">
-                          Behance curated work
-                        </h6>
-                        <div className="mxd-links-lines__icon">
-                          <i className="ph ph-arrow-up-right" />
-                        </div>
-                      </a>
-                      <div className="mxd-links-lines__divider anim-uni-in-up" />
-                    </div>
-                    {/* item */}
-                    <div className="mxd-links-lines__item">
-                      <div className="mxd-links-lines__divider anim-uni-in-up" />
-                      <a
-                        className="mxd-links-lines__link anim-uni-in-up"
-                        href="https://medium.com/"
-                        target="_blank"
-                      >
-                        <h6 className="mxd-links-lines__title">
-                          Article on Medium
-                        </h6>
-                        <div className="mxd-links-lines__icon">
-                          <i className="ph ph-arrow-up-right" />
-                        </div>
-                      </a>
-                      <div className="mxd-links-lines__divider anim-uni-in-up" />
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
