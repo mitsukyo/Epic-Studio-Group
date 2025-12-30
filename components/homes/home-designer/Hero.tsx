@@ -69,7 +69,7 @@ export default function Hero() {
                     <Image
                       className="mxd-rotate-slow"
                       alt="Hero Image"
-                      src="/img/hero/16_hero-img.webp"
+                      src="/img/hero/herodesigner/round_main_800x781.webp"
                       width={800}
                       height={781}
                     />
@@ -81,9 +81,9 @@ export default function Hero() {
                     }}
                   >
                     <h1>
-                      Creative visual designer
+                      We Turn CEO Authors 
                       <br />
-                      based in Odesa
+                      Into Media Brands
                     </h1>
                   </div>
                 </div>
