@@ -132,3 +132,15 @@ html {
   border-color: var(--accent--light);
 }
 
+/* Accent outline button for single-use overrides */
+.btn-accent.btn-outline {
+  color: var(--accent--light);
+  border-color: var(--accent--light);
+  background: transparent;
+}
+.btn-accent.btn-outline:hover,
+.btn-accent.btn-outline:focus {
+  background: var(--accent--light);
+  color: #fff;
+  border-color: var(--accent--light);
+}
