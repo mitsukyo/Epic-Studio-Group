@@ -98,12 +98,11 @@ export default function Hero() {
               >
                 <div className="mxd-hero__mark loading__item">
                   <span className="mark-icon" />
-                  <span className="mark-text">Available for freelance</span>
+                  <span className="mark-text">Welcome to Epic Studio Group</span>
                 </div>
                 <div className="mxd-hero-08__descr loading__item">
                   <p className="t-large t-bright t-medium t-120">
-                    Award-winning creative projects, over ten years of digital
-                    experience.
+                    We don’t just promote books. We turn thought leaders into media assets.
                   </p>
                 </div>
               </div>
