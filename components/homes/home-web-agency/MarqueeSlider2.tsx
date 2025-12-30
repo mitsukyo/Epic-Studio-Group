@@ -13,7 +13,7 @@ export default function MarqueeSlider2() {
                 key={index}
                 className="marquee__item one-line item-regular text"
               >
-                <p className="marquee__text">Understanding Your Industry</p>
+                <p className="marquee__text">Book a Call</p>
                 <div className="marquee__image">
                   <svg
                     version="1.1"

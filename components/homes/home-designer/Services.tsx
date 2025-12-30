@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <div className="mxd-section overflow-hidden">
+    <div className="mxd-section overflow-hidden padding-stacked-pre-mtext">
       <div className="mxd-container grid-container">
         {/* Block - Services Cards #01 Start */}
         <div className="mxd-block">
