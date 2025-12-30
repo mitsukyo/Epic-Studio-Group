@@ -188,32 +188,32 @@
   "projects4": [
     {
       "id": 15,
-      "title": "Studio template",
+      "title": "Zen Benefiel",
       "images": {
-        "mobile": "/img/works/preview/1080x1920_prv-04.webp",
-        "desktop": "/img/works/preview/1920x1080_prv-04.webp"
+        "mobile": "/img/avatars/authorityslider/mobile/mob_zen.webp",
+        "desktop": "/img/avatars/authorityslider/slider_zen.webp"
       },
-      "tags": ["Brand", "Illustrations", "Web"],
+      "tags": ["Podcast Host/PR", "Humble Coach", "Author 40+ Amazon Titles"],
       "justify": "justify-between"
     },
     {
       "id": 16,
-      "title": "AI Experiments",
+      "title": "Robert Spector",
       "images": {
-        "mobile": "/img/works/preview/1080x1920_prv-01.webp",
-        "desktop": "/img/works/preview/1920x1080_prv-01.webp"
+        "mobile": "/img/avatars/authorityslider/mobile/mob_robert.webp",
+        "desktop": "/img/avatars/authorityslider/slider_robert.webp"
       },
-      "tags": ["Sora", "AI", "Editorial"],
+      "tags": ["Speaker", "Author", "Customer Service Guru"],
       "justify": "justify-between"
     },
     {
       "id": 17,
-      "title": "Mobile app design",
+      "title": "Paco Underhill",
       "images": {
-        "mobile": "/img/works/preview/1080x1920_prv-05.webp",
-        "desktop": "/img/works/preview/1920x1080_prv-05.webp"
+        "mobile": "/img/avatars/authorityslider/mobile/mob_paco.webp",
+        "desktop": "/img/avatars/authorityslider/slider_paco.webp"
       },
-      "tags": ["Design", "UI/UX", "Android"],
+      "tags": ["Motivational Speaker", "Observer", "Global Best Selling Author"],
       "justify": "justify-between"
     }
   ],
