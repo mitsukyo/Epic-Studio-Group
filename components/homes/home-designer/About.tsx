@@ -35,11 +35,11 @@ export default function About() {
                       <strong className="mxd-manifest__headline" style={{fontSize: "5rem", fontWeight:"bold", color:"var(--accent--light)", display:"block", marginTop:"0.5rem"}}>Karl Taft, Host of CEO Authors</strong>
                       <br />
                       <br />
-                      <p style={{ fontSize: "2rem", lineHeight: "1.8", marginBottom: "1rem" }}> 
+                      <span style={{ fontSize: "2rem", lineHeight: "1.8", marginBottom: "1rem" }}> 
                       Karl Taft is the host of CEO Authors, our flagship podcast where founders, executives, and authors sit down for honest conversations about building companies, 
                       writing books, and turning their ideas into leverage. He brings curiosity, experience, and direct, no-fluff questions—designed to help guests share real stories 
                       and practical lessons, not just PR soundbites.
-                      </p>
+                      </span>
                     </RevealText>
                     <div className="mxd-manifest__controls" >
                       <AnimatedButton
