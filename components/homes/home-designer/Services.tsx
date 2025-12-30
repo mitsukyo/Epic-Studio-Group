@@ -22,36 +22,46 @@ export default function Services() {
                       </Link>
                     </div>
                     <div className="mxd-services-cards__title">
-                      <p className="opposite anim-uni-in-up">Graphic design</p>
+                      <p className="opposite anim-uni-in-up">Launch Your Podcast</p>
                     </div>
                     <div className="mxd-services-cards__info">
                       <div className="mxd-services-cards__tags">
                         <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          UI/UX
+                          Podcast Strategy
                         </span>
                         <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          Web design
+                          Brand Setup
                         </span>
                         <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          Packaging
-                        </span>
-                        <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          Motion
-                        </span>
-                        <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          3D models
+                          Remote Recording
                         </span>
                       </div>
                       <p className="t-opposite anim-uni-in-up">
-                        We create visually compelling designs that enhance user
-                        experience. We make sure your brand’s visuals resonate
-                        with your audience.
+                        You talk. We handle everything else.
                       </p>
+                      <p className="t-opposite anim-uni-in-up" style={{ fontWeight: 700, marginTop: '0.5rem', color: 'var(--accent--light)' }}>
+                        Starts at $1,300/month
+                      </p>
+                      <ul className="mxd-list anim-uni-in-up" style={{ marginTop: '1rem', color: 'var(--text--light)', marginLeft: 20, listStyleType: 'square'}}>
+                        <li>We design your show concept and angle</li>
+                        <li>We create your podcast name, artwork, and structure</li>
+                        <li>You record — we guide your remote setup</li>
+                        <li>We edit the audio/video and clean up the sound</li>
+                        <li>We write basic show notes and publish to major platforms</li>
+                      </ul>
+                      <div style={{ marginTop: '1.25rem' }}>
+                        <Link
+                          className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
+                          href={`/services/launch-podcast`}
+                        >
+                          Launch My Podcast
+                        </Link>
+                      </div>
                     </div>
                     <div className="mxd-services-cards__image mxd-services-cards-image-1">
                       <Image
                         alt="Illustration"
-                        src="/img/illustrations/800x800_service-image-01.webp"
+                        src="/img/cta/cta_800x800.png"
                         width={800}
                         height={800}
                       />
@@ -99,6 +109,42 @@ export default function Services() {
                       <Image
                         alt="Illustration"
                         src="/img/illustrations/800x800_service-image-02.webp"
+                        width={800}
+                        height={800}
+                      />
+                    </div>
+                  </div>
+                </div>
+                {/* item - Done-For-You Post-Production */}
+                <div className="col-12 col-xl-5 mxd-services-cards__item mxd-grid-item anim-uni-scale-in-left">
+                  <div className="mxd-services-cards__inner align-end bg-base-tint radius-l padding-5x4">
+                    <div className="mxd-services-cards__controls">
+                      <Link
+                        className="btn btn-round btn-round-large btn-opposite slide-right-up anim-no-delay"
+                        href={`/services`}
+                      >
+                        <i className="ph-bold ph-arrow-up-right" />
+                      </Link>
+                    </div>
+                    <div className="mxd-services-cards__title">
+                      <p className="opposite anim-uni-in-up">Already Have a Podcast?</p>
+                    </div>
+                    <div className="mxd-services-cards__info">
+                      <p className="t-opposite anim-uni-in-up">We become your post-production team.</p>
+                      <p className="t-opposite anim-uni-in-up" style={{ fontWeight: 700, marginTop: '0.5rem' }}>
+                        Starts at $300/episode
+                      </p>
+                      <ul className="mxd-list anim-uni-in-up" style={{ marginTop: '1rem' }}>
+                        <li>You send us raw recordings; we edit and polish</li>
+                        <li>We cut clips and reels for LinkedIn, YouTube, TikTok, IG</li>
+                        <li>We write episode titles, descriptions, and light show notes</li>
+                        <li>We organize files and schedule uploads so you stay consistent</li>
+                      </ul>
+                    </div>
+                    <div className="mxd-services-cards__image mxd-services-cards-image-2">
+                      <Image
+                        alt="Illustration"
+                        src="/img/illustrations/800x800_service-image-06.webp"
                         width={800}
                         height={800}
                       />
