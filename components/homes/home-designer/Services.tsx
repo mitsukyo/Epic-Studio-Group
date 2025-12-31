@@ -40,7 +40,7 @@ export default function Services() {
                         You talk. We handle everything else.
                       </p>
                       <p className="t-opposite anim-uni-in-up" style={{ fontWeight: 500, marginTop: '0.5rem'}}>
-                        Starts at $1,300/month
+                        Starts at $1,690/month
                       </p>
                       <p className="t-opposite anim-uni-in-up">
                       <ul style={{ fontSize: '1.5rem', marginTop: '1rem', color: 'black', marginLeft: 20, listStyleType: 'square'}}>
@@ -103,7 +103,7 @@ export default function Services() {
                         <br />We become your post-production team.
                       </p>
                       <p className="t-opposite anim-uni-in-up" style={{ fontWeight: 500, marginTop: '0.5rem' }}>
-                        Starts at $300/episode  
+                        Starts at $400/episode  
                       </p>
                       <p className="t-opposite anim-uni-in-up">
                       <ul style={{ fontSize: '1.5rem', marginTop: '1rem', marginLeft: 20, listStyleType: 'square'}}>
