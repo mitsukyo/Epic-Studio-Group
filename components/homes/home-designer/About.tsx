@@ -45,7 +45,7 @@ export default function About() {
                       <AnimatedButton
                         text="About Karl Taft"
                         className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
-                        href={`/about-me`}
+                        href={"https://www.linkedin.com/in/kaleotaft/"}
                         style={{marginRight: "2rem"}}
                       >
                         <i className="ph-bold ph-arrow-up-right" />
