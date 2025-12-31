@@ -47,7 +47,7 @@ export default function Hero() {
                   <div className="mxd-block__content">
                     <div className="mxd-block__inner-headline">
                       <h1 className="inner-headline__title headline-img-before headline-img-04 loading__item">
-                        New standards in digital excellence
+                        Launch Your First Episode
                       </h1>
                       {/* <p class="inner-headline__text t-large t-bright"></p> */}
                     </div>
@@ -79,18 +79,18 @@ export default function Hero() {
                         <div className="container-fluid px-0">
                           <div className="row gx-0">
                             {/* item */}
-                            <div className="col-12 col-xl-7 mxd-stats-cards__item mxd-grid-item">
+                            <div className="col-12 mxd-stats-cards__item mxd-grid-item">
                               <div className="mxd-stats-cards__inner bg-base-tint radius-m padding-4">
                                 <div className="mxd-counter">
                                   <p
                                     id="stats-counter-3"
                                     className="mxd-counter__number mxd-stats-number"
+                                    style={{ marginTop: "2rem"}}
                                   >
-                                    <Counter max={5} />+
+                                    Yes, it's easy.
                                   </p>
-                                  <p className="mxd-counter__descr t-140 t-bright">
-                                    Years of professional experience in
-                                    designing digital products
+                                  <p className="mxd-counter__descr t-140 t-bright" style={{ marginTop: "2rem"}}>
+                                    All you need is a mic, an internet, and a clean background, My team will handle the rest.
                                   </p>
                                 </div>
                                 <div className="mxd-stats-cards__btngroup">
@@ -99,7 +99,7 @@ export default function Hero() {
                                     href={`/contact`}
                                   >
                                     <span className="btn-caption">
-                                      Start New Project
+                                      Book a Call
                                     </span>
                                     <i className="ph-bold ph-arrow-up-right" />
                                   </Link>
@@ -107,7 +107,7 @@ export default function Hero() {
                                 <div className="mxd-stats-cards__image mxd-stats-cards-image-3">
                                   <Image
                                     alt="Illustration"
-                                    src="/img/illustrations/800x800_card-image-03.webp"
+                                    src="/img/services/service_a_1.webp"
                                     width={800}
                                     height={800}
                                   />
@@ -115,7 +115,7 @@ export default function Hero() {
                               </div>
                             </div>
                             {/* item */}
-                            <div className="col-12 col-xl-5 mxd-stats-cards__item mxd-grid-item">
+                            {/* <div className="col-12 col-xl-5 mxd-stats-cards__item mxd-grid-item">
                               <div className="mxd-stats-cards__inner bg-base-tint radius-m padding-4">
                                 <div className="mxd-counter">
                                   <p
@@ -148,7 +148,7 @@ export default function Hero() {
                                   />
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </div>

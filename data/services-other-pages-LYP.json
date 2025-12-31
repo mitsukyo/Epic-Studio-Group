@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Setup",
+    "image": "/img/illustrations/360x440_list-01.webp",
+    "desc": "As a host, you need a good mic. Above all else, audio is the priority. Next is your background. We don't recommend green screens - just a clean, simple, and slightly aesthetic background works best.",
+    "tags": [
+      "Microphone",
+      "Camera",
+      "Backdrop",
+      "Lighting"
+    ]
+  },
+  {
+    "title": "Niche",
+    "image": "/img/illustrations/360x440_list-02.webp",
+    "desc": "Start with why. Why are you launching a podcast? What are you interested in? If you can answer these, you have your niche.",
+    "tags": [
+      "Business",
+      "Self-Help",
+      "Sports",
+      "Leadership"
+    ]
+  },
+  {
+    "title": "Record",
+    "image": "/img/illustrations/360x440_list-03.webp",
+    "desc": "Find a guest. Qualify them with a quick call first to feel their energy. Then schedule the interview, send the invite, and record.",
+    "tags": [
+      "Friends",
+      "Colleagues",
+      "Executives",
+      "Authors"
+    ]
+  },
+  {
+    "title": "Publish",
+    "image": "/img/illustrations/360x440_list-04.webp",
+    "desc": "We'll handle the editing -both audio and video. We review it together, then hit publish. Your only job is to stay consistent an get past 10 episodes. 90% of podcasts fail because they never do.",
+    "tags": [
+      "Youtube",
+      "Spotify",
+      "Apple",
+      "Amazon"
+    ]
+  }
+]

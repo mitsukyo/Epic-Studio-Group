@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import services from "@/data/services-other-pages.json";
+import services from "@/data/services-other-pages-DFY.json";
 import { Service2 } from "@/types/services";
 type HoverState = {
   activeIndex: number | null;
@@ -42,7 +42,7 @@ export default function Services() {
                 className="mxd-services-list__item hover-reveal__item"
               >
                 <div className="mxd-services-list__border anim-uni-in-up" />
-                <div
+                {/* <div
                   style={{
                     opacity: hoverState.activeIndex === idx ? 1 : 0,
                     transform: "translate(-80%, -50%)",
@@ -67,7 +67,7 @@ export default function Services() {
                     width={360}
                     height={440}
                   />
-                </div>
+                </div> */}
                 <div className="mxd-services-list__inner">
                   <div className="container-fluid px-0">
                     <div className="row gx-0">

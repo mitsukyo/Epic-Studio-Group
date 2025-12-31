@@ -1,15 +1,15 @@
 import Blogs from "@/components/common/Blogs";
 import Cta from "@/components/common/Cta";
 import Footer2 from "@/components/footers/Footer2";
-import Hero from "@/components/other-pages/services/Hero";
-import ParallaxDivider from "@/components/other-pages/services/ParallaxDivider";
-import Services from "@/components/other-pages/services/Services";
+import Hero from "@/components/other-pages/service-LYP/Hero";
+import ParallaxDivider from "@/components/other-pages/service-LYP/ParallaxDivider";
+import Services from "@/components/other-pages/service-LYP/Services";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Services || Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "Launch Your Podcast || Epic Studio Group - We Turn CEO-Authors into Media Brands",
   description:
-    "Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "Launch Your Podcast || Epic Studio Group - We Turn CEO-Authors into Media Brands",
 };
 export default function ServicesPage() {
   return (
@@ -20,9 +20,9 @@ export default function ServicesPage() {
       >
         <Hero />
         <Services />
-        <ParallaxDivider />
+        {/* <ParallaxDivider />
         <Blogs />
-        <Cta />
+        <Cta /> */}
       </main>
       <Footer2 />
     </>

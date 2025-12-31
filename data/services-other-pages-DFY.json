@@ -1,0 +1,46 @@
+[
+  {
+    "title": "1. Trailer",
+    "image": "/img/illustrations/360x440_list-01.webp",
+    "desc": "This is the part where your audience decides whether to continue watching or leave. A trailer is a taste of what the episode is-a 60-second snippet designed to capture attention. 99% of podcasts don't have one. Why? Because it's hard.",
+    "tags": [
+      "Hook",
+      "Music",
+      "Topic",
+      "Highlight"
+    ]
+  },
+  {
+    "title": "2. Stinger",
+    "image": "/img/illustrations/360x440_list-02.webp",
+    "desc": "Then comes a 10-second intro: your branding, your personality, your music. This should come after the trailer.",
+    "tags": [
+      "Brand",
+      "Music",
+      "Tagline",
+      "Episodes"
+    ]
+  },
+  {
+    "title": "3. Clips",
+    "image": "/img/illustrations/360x440_list-03.webp",
+    "desc": "People today have short attention spans. It takes about 3 seconds for the brain to decide whether to keep watching or scroll away. That's called a hook-and yes, we do that.",
+    "tags": [
+      "Shorts",
+      "Reels",
+      "Hook",
+      "Music"
+    ]
+  },
+  {
+    "title": "4. Monetize",
+    "image": "/img/illustrations/360x440_list-04.webp",
+    "desc": "The hard part is the reward. The reward happens when trust is built. Trust then converts into revenue through sponsorships, partnerships, affiliate offers, and the host's own products or services -not through the platform itself.",
+    "tags": [
+      "Sponsorships",
+      "Partnerships",
+      "Affiliates",
+      "Products"
+    ]
+  }
+]
