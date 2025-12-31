@@ -9,7 +9,7 @@ export default function MarqueeSlider() {
           <VelocityMarquee className="marquee marquee-right--gsap muted-extra">
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Production</p>
+              <p className="marquee__text">CEO Authors</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -33,7 +33,7 @@ export default function MarqueeSlider() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Documentary Concepts</p>
+              <p className="marquee__text">Karl Taft</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -57,7 +57,7 @@ export default function MarqueeSlider() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Podcasts</p>
+              <p className="marquee__text">Epic Studio Group</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -81,7 +81,7 @@ export default function MarqueeSlider() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Strategic Content</p>
+              <p className="marquee__text">Podcast</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
