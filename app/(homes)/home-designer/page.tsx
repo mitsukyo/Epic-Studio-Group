@@ -28,7 +28,7 @@ export default function HomeDesignerPage() {
       
       </main>
       
-      <Footer2 text="alexwalker" />
+      <Footer2 text="epicstudiogroup" />
     </>
   );
 }

@@ -6599,7 +6599,6 @@ form textarea:required:valid {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   -ms-flex: 1;
-  flex: 1;
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
   -ms-flex-pack: justify;

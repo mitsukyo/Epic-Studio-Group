@@ -8,20 +8,16 @@
     "href": "/about-us"
   },
   {
-    "label": "Works",
-    "href": "/works-simple",
-    "counter": 10
-  },
-  {
     "label": "Services",
     "href": "/services"
   },
   {
-    "label": "Insights",
-    "href": "/blog-standard"
+    "label": "Be a Guest",
+    "href": "/works-simple",
+    "counter": 10
   },
   {
-    "label": "Contact",
+    "label": "Book a Call",
     "href": "/contact"
   }
 ]
