@@ -1,10 +1,8 @@
-import Blogs from "@/components/common/Blogs";
-import Cta from "@/components/common/Cta";
 import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/other-pages/done-for-you-post-production/Hero";
-import ParallaxDivider from "@/components/other-pages/launch-your-podcast/ParallaxDivider";
 import Services from "@/components/other-pages/done-for-you-post-production/Services";
 import { Metadata } from "next";
+import Cta2 from "@/components/common/Cta2";
 export const metadata: Metadata = {
   title:
     "Done-For-You Post-Production || Epic Studio Group - We Turn CEO-Authors into Media Brands",
@@ -20,6 +18,7 @@ export default function Services2Page() {
       >
         <Hero />
         <Services />
+        <Cta2 />
       </main>
       <Footer2 />
     </>

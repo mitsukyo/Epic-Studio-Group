@@ -1,8 +1,6 @@
-import Blogs from "@/components/common/Blogs";
-import Cta from "@/components/common/Cta";
+import Cta2 from "@/components/common/Cta2";
 import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/other-pages/launch-your-podcast/Hero";
-import ParallaxDivider from "@/components/other-pages/launch-your-podcast/ParallaxDivider";
 import Services from "@/components/other-pages/launch-your-podcast/Services";
 import { Metadata } from "next";
 export const metadata: Metadata = {
@@ -20,6 +18,7 @@ export default function ServicesPage() {
       >
         <Hero />
         <Services />
+        <Cta2 />
       </main>
       <Footer2 />
     </>
