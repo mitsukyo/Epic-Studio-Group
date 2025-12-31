@@ -42,14 +42,12 @@ export default function Services() {
                       <p className="t-opposite anim-uni-in-up" style={{ fontWeight: 500, marginTop: '0.5rem'}}>
                         Starts at $1,690/month
                       </p>
-                      <p className="t-opposite anim-uni-in-up">
-                      <ul style={{ fontSize: '1.5rem', marginTop: '1rem', color: 'black', marginLeft: 20, listStyleType: 'square'}}>
+                      <p className="t-opposite anim-uni-in-up" style={{ fontSize: '1.5rem', marginTop: '1rem', marginLeft: 20, listStyleType: 'square'}}>
                         <li>We design your show concept and angle</li>
                         <li>We create your podcast name, artwork, and structure</li>
                         <li>You record — we guide your remote setup</li>
                         <li>We edit the audio/video and clean up the sound</li>
                         <li>We write basic show notes and publish to major platforms</li>
-                      </ul>
                       </p>
                       <div style={{ marginTop: '4rem' }}>
                         <Link
@@ -105,20 +103,18 @@ export default function Services() {
                       <p className="t-opposite anim-uni-in-up" style={{ fontWeight: 500, marginTop: '0.5rem' }}>
                         Starts at $400/episode  
                       </p>
-                      <p className="t-opposite anim-uni-in-up">
-                      <ul style={{ fontSize: '1.5rem', marginTop: '1rem', marginLeft: 20, listStyleType: 'square'}}>
+                      <p className="t-opposite anim-uni-in-up" style={{ fontSize: '1.5rem', marginTop: '1rem', marginLeft: 20, listStyleType: 'square'}}>
                         <li>You send us raw recordings; we edit and polish</li>
                         <li>We cut clips and reels for LinkedIn, YouTube, TikTok, IG</li>
                         <li>We write episode titles, descriptions, and light show notes</li>
                         <li>We organize files and schedule uploads so you stay consistent</li>
-                      </ul>
                       </p>
                       <div style={{ marginTop: '4rem' }}>
                         <Link
                           className="btn btn-anim btn-default btn-outline btn-accent slide-right-up anim-uni-in-up"
-                          href={`/services/launch-podcast`}
+                          href={`/`}
                         >
-                          Launch My Podcast
+                          Talk About Post-Production
                         </Link>
                       </div>
                     </div>
