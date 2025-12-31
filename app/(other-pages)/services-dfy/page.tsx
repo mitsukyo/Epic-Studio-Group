@@ -3,7 +3,7 @@ import Cta from "@/components/common/Cta";
 import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/other-pages/service-DFY/Hero";
 import ParallaxDivider from "@/components/other-pages/service-LYP/ParallaxDivider";
-import Services from "@/components/other-pages/service-LYP/Services";
+import Services from "@/components/other-pages/service-DFY/Services";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
