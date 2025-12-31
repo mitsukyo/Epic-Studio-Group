@@ -1,14 +1,14 @@
 [
   {
     "label": "Home",
-    "href": "/home-main"
+    "href": "/home-designer"
   },
   {
-    "label": "About us",
-    "href": "/about-us"
+    "label": "Launch My Podcast",
+    "href": "/service-lyp"
   },
   {
-    "label": "Services",
+    "label": "I Need Post-Production",
     "href": "/services"
   },
   {

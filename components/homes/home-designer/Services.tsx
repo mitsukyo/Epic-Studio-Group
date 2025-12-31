@@ -16,7 +16,7 @@ export default function Services() {
                     <div className="mxd-services-cards__controls">
                       <Link
                         className="btn btn-round btn-round-large btn-additional slide-right-up anim-no-delay"
-                        href={`/services-lyp`}
+                        href={`/launch-your-podcast`}
                       >
                         <i className="ph-bold ph-arrow-up-right" />
                       </Link>
@@ -52,7 +52,7 @@ export default function Services() {
                       <div style={{ marginTop: '4rem' }}>
                         <Link
                           className="btn btn-anim btn-default btn-outline btn-accent slide-right-up anim-uni-in-up"
-                          href={`/services-lyp`}
+                          href={`/launch-your-podcast`}
                         >
                           Launch My Podcast
                         </Link>
@@ -74,7 +74,7 @@ export default function Services() {
                     <div className="mxd-services-cards__controls">
                       <Link
                         className="btn btn-round btn-round-large btn-base slide-right-up anim-no-delay"
-                        href={`/services-dfy`}
+                        href={`/done-for-you-post-production`}
                       >
                         <i className="ph-bold ph-arrow-up-right" />
                       </Link>
@@ -112,7 +112,7 @@ export default function Services() {
                       <div style={{ marginTop: '4rem' }}>
                         <Link
                           className="btn btn-anim btn-default btn-accent btn-post-production slide-right-up anim-uni-in-up"
-                          href={`/services-dfy`}
+                          href={`/done-for-you-post-production`}
                         >
                           Talk About Post-Production
                         </Link>

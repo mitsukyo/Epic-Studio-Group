@@ -86,10 +86,10 @@ export default function Hero() {
                     </h1>
 
                     <div className="hero-08-headline__actions" style={{marginTop: '2rem'}}>
-                      <a href="#" className="btn btn-anim btn-default btn-outline btn-accent slide-right-up anim-no-delay" role="button">
+                      <a href="/launch-your-podcast" className="btn btn-anim btn-default btn-outline btn-accent slide-right-up anim-no-delay" role="button">
                         Launch My Podcast
                       </a>
-                      <a href="#" className="btn btn-anim btn-default btn-outline btn-accent slide-right-up anim-no-delay" role="button" style={{ marginLeft: "1rem" }}>
+                      <a href="/done-for-you-post-production" className="btn btn-anim btn-default btn-outline btn-accent slide-right-up anim-no-delay" role="button" style={{ marginLeft: "1rem" }}>
                         I Need Post-Production
                       </a>
                     </div>

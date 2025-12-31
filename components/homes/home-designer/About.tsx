@@ -46,6 +46,7 @@ export default function About() {
                         text="About Karl Taft"
                         className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
                         href={`/about-me`}
+                        style={{marginRight: "2rem"}}
                       >
                         <i className="ph-bold ph-arrow-up-right" />
                       </AnimatedButton>

@@ -1,9 +1,9 @@
 import Blogs from "@/components/common/Blogs";
 import Cta from "@/components/common/Cta";
 import Footer2 from "@/components/footers/Footer2";
-import Hero from "@/components/other-pages/service-DFY/Hero";
-import ParallaxDivider from "@/components/other-pages/service-LYP/ParallaxDivider";
-import Services from "@/components/other-pages/service-DFY/Services";
+import Hero from "@/components/other-pages/done-for-you-post-production/Hero";
+import ParallaxDivider from "@/components/other-pages/launch-your-podcast/ParallaxDivider";
+import Services from "@/components/other-pages/done-for-you-post-production/Services";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
@@ -20,9 +20,6 @@ export default function Services2Page() {
       >
         <Hero />
         <Services />
-        {/* <ParallaxDivider />
-        <Blogs />
-        <Cta /> */}
       </main>
       <Footer2 />
     </>
