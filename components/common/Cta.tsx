@@ -47,7 +47,7 @@ export default function Cta() {
                     <i className="ph-bold ph-arrow-up-right" />
                   </AnimatedButton>
 
-                  <p className="mxd-promo__note">
+                  <p className="mxd-promo__note t-opposite anim-uni-in-up">
                     <small>15–20 minutes. No hard pitch. Just clarity on whether this is the right move for you right now.</small>
                   </p>
                 </div>
