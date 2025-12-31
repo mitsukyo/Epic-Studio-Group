@@ -2050,16 +2050,16 @@ p.t-muted a {
     0 1px,
     100% 1px;
 }
-p.t-muted a.no-effect {
+ul, p.t-muted a.no-effect {
   background: 0 0;
 }
-p.t-opposite {
+ul, p.t-opposite {
   color: var(--t-opp-bright);
 }
-p.t-opposite-medium {
+ul p.t-opposite-medium {
   color: var(--t-opp-medium);
 }
-p.t-opposite-medium a {
+ul p.t-opposite-medium a {
   color: var(--t-opp-bright);
   text-decoration: none;
   background:
