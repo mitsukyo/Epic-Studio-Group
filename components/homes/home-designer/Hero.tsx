@@ -31,7 +31,6 @@ export default function Hero() {
       }
     });
 
-    // Scale Out Animation
     scaleOutRefs.current.forEach((el) => {
       if (el) {
         gsap
@@ -85,6 +84,16 @@ export default function Hero() {
                       <br />
                       Into Media Brands
                     </h1>
+
+                    <div className="hero-08-headline__actions" style={{marginTop: '2rem'}}>
+                      <a href="#" className="btn btn-anim btn-default btn-outline btn-accent slide-right-up anim-no-delay" role="button">
+                        Launch My Podcast
+                      </a>
+                      <a href="#" className="btn btn-anim btn-default btn-outline btn-accent slide-right-up anim-no-delay" role="button" style={{ marginLeft: "1rem" }}>
+                        I Need Post-Production
+                      </a>
+                    </div>
+
                   </div>
                 </div>
               </div>
@@ -96,15 +105,6 @@ export default function Hero() {
                   scaleOutRefs.current[1] = el;
                 }}
               >
-                <div className="mxd-hero__mark loading__item">
-                  <span className="mark-icon" />
-                  <span className="mark-text">Welcome to Epic Studio Group</span>
-                </div>
-                <div className="mxd-hero-08__descr loading__item">
-                  <p className="t-large t-bright t-medium t-120">
-                    We don’t just promote books. We turn thought leaders into media assets.
-                  </p>
-                </div>
               </div>
               <div
                 className="mxd-hero-08__video-wrap hero-08-scale-out-scroll loading__item"

@@ -71,13 +71,13 @@ export default function Header1() {
       <div className="mxd-header__controls loading__fade">
         <ThemeSwitcherButton />
 
-        {(
+        {/* {(
           <AnimatedButton
             text="Launch My Podcast"
             className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
             href="/"
           >
-            {/* <i className="ph-bold ph-arrow-up-right" /> */}
+            <i className="ph-bold ph-arrow-up-right" />
           </AnimatedButton>
           
         )}
@@ -88,10 +88,10 @@ export default function Header1() {
             className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
             href="/"
           >
-            {/* <i className="ph-bold ph-arrow-up-right" /> */}
+            <i className="ph-bold ph-arrow-up-right" />
           </AnimatedButton>
-          
-        )}
+        )} */}
+        
       </div>
     </header>
   );
