@@ -9,9 +9,9 @@ import Socials from "@/components/other-pages/contact/Socials";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Contact || Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "Contact || Epic Studio Group - We Turn CEO-Authors into Media Brands",
   description:
-    "Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "Contact || Epic Studio Group - We Turn CEO-Authors into Media Brands",
 };
 export default function ContactPage() {
   return (
