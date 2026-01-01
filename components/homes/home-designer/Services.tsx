@@ -27,13 +27,16 @@ export default function Services() {
                     <div className="mxd-services-cards__info">
                       <div className="mxd-services-cards__tags">
                         <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          Podcast Strategy
+                          Setup
                         </span>
                         <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          Brand Setup
+                          Niche
                         </span>
                         <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          Remote Recording
+                          Record
+                        </span>
+                        <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
+                          Publish
                         </span>
                       </div>
                       <p className="t-opposite anim-uni-in-up">
@@ -69,36 +72,21 @@ export default function Services() {
                     <div className="mxd-services-cards__info">
                       <div className="mxd-services-cards__tags">
                         <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          Content Repurposing
+                          Trailer
                         </span>
                         <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          Audio & Video Editing
+                          Stinger
                         </span>
                         <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
-                          Social Clips
+                          Clips
+                        </span>
+                        <span className="tag tag-default tag-outline-opposite anim-uni-in-up">
+                          Monetize
                         </span>
                       </div>
-                      <p className="t-opposite anim-uni-in-up" style={ { fontWeight: 700 }}>
-                        Already Have a Podcast?
-                        <br />We become your post-production team.
+                      <p className="t-opposite anim-uni-in-up">
+                        Yes, you already have a podcast. So my team will handle the editing. "Diary of a CEO" type of editing. With a trailer, stinger, and some clips. 
                       </p>
-                      <p className="t-opposite anim-uni-in-up" style={{ fontWeight: 500, marginTop: '0.5rem' }}>
-                        Starts at $400/episode  
-                      </p>
-                      <ul className="t-opposite anim-uni-in-up " style={{ fontSize: '1.5rem', marginTop: '1rem', marginLeft: 20, listStyleType: 'square'}}>
-                        <li>You send us raw recordings; we edit and polish</li>
-                        <li>We cut clips and reels for LinkedIn, YouTube, TikTok, IG</li>
-                        <li>We write episode titles, descriptions, and light show notes</li>
-                        <li>We organize files and schedule uploads so you stay consistent</li>
-                      </ul>
-                      <div style={{ marginTop: '4rem' }}>
-                        <Link
-                          className="btn btn-anim btn-default btn-accent btn-post-production slide-right-up anim-uni-in-up"
-                          href={`/done-for-you-post-production`}
-                        >
-                          Talk About Post-Production
-                        </Link>
-                      </div>
                     </div>
                     <div className="mxd-services-cards__image mxd-services-cards-image-2">
                       <Image
