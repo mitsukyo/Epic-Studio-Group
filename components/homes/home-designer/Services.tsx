@@ -36,26 +36,9 @@ export default function Services() {
                           Remote Recording
                         </span>
                       </div>
-                      <p className="t-opposite anim-uni-in-up" style={ { fontWeight: 700 }}>
-                        You talk. We handle everything else.
+                      <p className="t-opposite anim-uni-in-up">
+                        90% of podcasts don't get past episode 3. That's 1.8 million who quit. Just think about that for a second. Your show may be in the Top 1% OF podcasts in the world already, simply because you kept going.
                       </p>
-                      <p className="t-opposite anim-uni-in-up" style={{ fontWeight: 500, marginTop: '0.5rem'}}>
-                        Starts at $1,690/month
-                      </p>
-                      <ul className="t-opposite anim-uni-in-up" style={{ fontSize: '1.5rem', marginTop: '1rem', marginLeft: 20, listStyleType: 'square'}}>
-                        <li>We design your show concept and angle</li>
-                        <li>We create your podcast name, artwork, and structure</li>
-                        <li>You record — we guide your remote setup</li>
-                        <li>We edit the audio/video and clean up the sound</li>
-                        <li>We write basic show notes and publish to major platforms</li>
-                      </ul>
-                      <div style={{ marginTop: '4rem' }}>
-                        <Link
-                          className="btn btn-anim btn-default btn-outline btn-accent slide-right-up anim-uni-in-up"
-                          href={`/launch-your-podcast`}
-                        >
-                          Launch My Podcast
-                        </Link>
                       </div>
                     </div>
                     <div className="mxd-services-cards__image mxd-services-cards-image-1">
@@ -134,6 +117,5 @@ export default function Services() {
         </div>
         {/* Block - Services Cards #01 End */}
       </div>
-    </div>
   );
 }
