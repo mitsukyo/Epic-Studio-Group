@@ -37,9 +37,8 @@ export default function Services() {
                         </span>
                       </div>
                       <p className="t-opposite anim-uni-in-up">
-                        90% of podcasts don't get past episode 3. That's 1.8 million who quit. Just think about that for a second. Your show may be in the Top 1% OF podcasts in the world already, simply because you kept going.
+                        90% of podcasts don't get past episode 3. That's 1.8 million who quit. Just think about that for a second. Your show may be in the Top 1% OF podcasts in the world already, simply because you kept going. 
                       </p>
-                      </div>
                     </div>
                     <div className="mxd-services-cards__image mxd-services-cards-image-1">
                       <Image
@@ -117,5 +116,6 @@ export default function Services() {
         </div>
         {/* Block - Services Cards #01 End */}
       </div>
+    </div>
   );
 }
