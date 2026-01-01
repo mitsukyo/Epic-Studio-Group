@@ -77,11 +77,11 @@ export default function MobileMenu() {
     const state = Flip.getState(flipEl);
 
     // Move the node to its new container
-    if (toMenu) {
-      menuContainRef.current.appendChild(flipEl);
-    } else {
-      hamburgerBtnRef.current.appendChild(flipEl);
-    }
+    // if (toMenu) {
+    //   menuContainRef.current.appendChild(flipEl);
+    // } else {
+    //   hamburgerBtnRef.current.appendChild(flipEl);
+    // }
 
     // Animate from previous to new layout
     Flip.from(state, {
@@ -95,7 +95,7 @@ export default function MobileMenu() {
       data-lenis-prevent=""
     >
       {/* Hamburger Start */}
-      <div className="mxd-nav__contain loading__fade">
+      {/* <div className="mxd-nav__contain loading__fade">
         <a
           href="#"
           onClick={(e) => {
@@ -105,12 +105,11 @@ export default function MobileMenu() {
           className={`mxd-nav__hamburger ${isMenuOpen ? "nav-open" : ""}`}
           ref={hamburgerBtnRef}
         >
-          {/* flip element */}
           <div className="hamburger__base" ref={flipBaseRef} />
           <div className="hamburger__line" />
           <div className="hamburger__line" />
         </a>
-      </div>
+      </div> */}
       {/* Hamburger End */}
       {/* Main Navigation Start */}
       <div className={`mxd-menu__wrapper ${isActive ? "active_menu" : ""} `}>

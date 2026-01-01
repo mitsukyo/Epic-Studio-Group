@@ -8,7 +8,7 @@ export default function Footer1() {
     {
       title: "Start pages",
       links: [
-        { label: "Main home", href: "/home-main" },
+        { label: "Main home", href: "/home-designer" },
         {
           label: "Software development company",
           href: "/home-software-development-company",
@@ -56,7 +56,7 @@ export default function Footer1() {
         { label: "Pricing plans", href: "/pricing" },
         { label: "Frequently asked questions", href: "/faq" },
         { label: "404 error page", href: "/404" },
-        { label: "Contact", href: "/contact" },
+        { label: "Contact", href: "https://calendly.com/getstarted-epicstudiogroup/let-s-talk-about-your-podcast" },
       ],
     },
   ];

@@ -53,7 +53,7 @@ export default function About() {
                       <AnimatedButton
                         text="Be a Guest on CEO Authors"
                         className="btn btn-anim btn-default btn-outline slide-right-up anim-uni-in-up"
-                        href={`/contact`}
+                        href={`https://calendly.com/getstarted-epicstudiogroup/let-s-talk-about-your-podcast`}
                       />
                     </div>
                   </div>

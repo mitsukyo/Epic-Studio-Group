@@ -58,7 +58,7 @@
     "imageHeight": 800,
     "button": {
       "text": "Start New Project",
-      "href": "/contact",
+      "href": "https://calendly.com/getstarted-epicstudiogroup/let-s-talk-about-your-podcast",
       "iconClass": "ph-bold ph-arrow-down-right",
       "btnClass": "btn btn-anim btn-default btn-outline slide-right-down"
     },

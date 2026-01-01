@@ -49,7 +49,7 @@ export default function Header1() {
     <header id="header" className={`mxd-header ${isHidden ? "is-hidden" : ""}`}>
       {/* header logo */}
       <div className="mxd-header__logo loading__fade">
-        <Link href={`/home-main`} className="mxd-logo">
+        <Link href={`/home-designer`} className="mxd-logo">
           {/* logo icon */}
           <Image
             src={isDarkLogo ? "/img/favicon/Epic header W.png" : "/img/favicon/Epic header B.png"}

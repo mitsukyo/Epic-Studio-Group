@@ -2,7 +2,7 @@
   {
     "title": "Home",
     "submenu": [
-      { "label": "Main home", "href": "/home-main" },
+      { "label": "Main home", "href": "/home-designer" },
       {
         "label": "Software development company",
         "href": "/home-software-development-company"
@@ -50,6 +50,6 @@
   },
   {
     "title": "Contact",
-    "href": "/contact"
+    "href": "https://calendly.com/getstarted-epicstudiogroup/let-s-talk-about-your-podcast"
   }
 ]

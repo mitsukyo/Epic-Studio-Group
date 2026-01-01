@@ -96,7 +96,7 @@ export default function Hero() {
                                 <div className="mxd-stats-cards__btngroup">
                                   <Link
                                     className="btn btn-anim btn-default btn-outline slide-right-up"
-                                    href={`/contact`}
+                                    href={`https://calendly.com/getstarted-epicstudiogroup/let-s-talk-about-your-podcast`}
                                   >
                                     <span className="btn-caption">
                                       Hmmm... OK

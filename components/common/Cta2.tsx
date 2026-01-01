@@ -36,7 +36,7 @@ export default function Cta() {
                   <AnimatedButton
                     text="Just Book a Call"
                     className="btn btn-anim btn-default btn-large btn-additional slide-right-up"
-                    href={`/contact`}
+                    href={`https://calendly.com/getstarted-epicstudiogroup/let-s-talk-about-your-podcast`}
                   >
                     <i className="ph-bold ph-arrow-up-right" />
                   </AnimatedButton>
