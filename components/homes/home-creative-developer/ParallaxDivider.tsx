@@ -49,7 +49,7 @@ export default function ParallaxDivider() {
             <Image
               className="btn-rotating__image"
               alt="Object"
-              src="/img/icons/300x300_obj-btn-02.webp"
+              src="/img/services/heart_300x300.webp"
               width={300}
               height={300}
             />
