@@ -1,7 +1,9 @@
 [
-  { "title": "Epic Studio Group", "url": "https://epicstudiogroup.com/" },
-  { "title": "LinkedIn", "url": "" },
-  { "title": "YouTube", "url": "" },
-  { "title": "Spotify", "url": "" },
-  { "title": "Instagram", "url": "" }
+  { "title": "Epic Studio Group", "url": "/home" },
+  { "title": "LinkedIn", "url": "https://www.linkedin.com/company/epic-studio-group" },
+  { "title": "YouTube", "url": "https://www.youtube.com/@CEOAuthors" },
+  { "title": "Spotify", "url": "https://open.spotify.com/show/3yf4zVzCDxIFe18hBx2XSG?si=d9293b29e4534231" },
+  { "title": "Instagram", "url": "https://www.instagram.com/ceo.authors/" },
+  { "title": "Facebook", "url": "https://www.facebook.com/CEOAuthors/" },
+  { "title": "TikTok", "url": "https://www.tiktok.com/@ceo.authors" }
 ]

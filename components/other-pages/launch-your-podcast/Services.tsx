@@ -42,32 +42,6 @@ export default function Services() {
                 className="mxd-services-list__item hover-reveal__item"
               >
                 <div className="mxd-services-list__border anim-uni-in-up" />
-                {/* <div
-                  style={{
-                    opacity: hoverState.activeIndex === idx ? 1 : 0,
-                    transform: "translate(-80%, -50%)",
-                    left: hoverState.x,
-
-                    pointerEvents: "none",
-                    transition: "opacity 0.3s ease",
-                  }}
-                  className="hover-reveal__content hover-reveal-360x440"
-                >
-                  <Image
-                    style={{
-                      transform:
-                        hoverState.activeIndex === idx
-                          ? "scale(1,1)"
-                          : "scale(1,1.4)",
-                      transition: "transform 0.3s ease",
-                    }}
-                    className="hover-reveal__image"
-                    alt=""
-                    src={s.image}
-                    width={360}
-                    height={440}
-                  />
-                </div> */}
                 <div className="mxd-services-list__inner">
                   <div className="container-fluid px-0">
                     <div className="row gx-0">

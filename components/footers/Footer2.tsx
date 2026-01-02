@@ -1,8 +1,8 @@
-import Link from "next/link";
 import footerNav from "@/data/footer-nav.json";
 import socials from "@/data/socials.json";
 import AnimatedButton from "../animation/AnimatedButton";
-import SubscribeForm from "./SubscribeForm";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer2({ text = "rayosttudio" }: { text?: string }) {
   return (
@@ -11,7 +11,7 @@ export default function Footer2({ text = "rayosttudio" }: { text?: string }) {
       <div className="mxd-footer__text-wrap">
         <div className="fullwidth-text__tl-trigger" />
         <div className="mxd-footer__fullwidth-text anim-top-to-bottom">
-          
+
         </div>
       </div>
       {/* Footer Block - Fullwidth Text End */}
@@ -103,6 +103,21 @@ export default function Footer2({ text = "rayosttudio" }: { text?: string }) {
                 A media company that turns CEO Authors and business leaders into media brands through podcasts, video, and strategic content.
               </p>
             </div>
+            <div className="footer-blocks__title anim-uni-in-up">
+              <Link href={`https://www.bbb.org/us/ct/colchester/profile/digital-media/epic-studio-group-llc-0111-110093321`} className="mxd-logo"
+                target="_blank"
+              >
+                {/* logo icon */}
+                <Image
+                  src={"/img/others/bbb-accredited.svg"}
+                  alt="BBB Accredited"
+                  width={110}
+                  height={50}
+                  className="mxd-logo__image mxd-logo__image--small"
+                  priority
+                />
+              </Link>
+            </div>
           </div>
           {/* inner card */}
           <div className="footer-blocks__card">
@@ -190,6 +205,7 @@ export default function Footer2({ text = "rayosttudio" }: { text?: string }) {
             </div>
             {/* links */}
             <div className="footer-blocks__links anim-uni-in-up">
+
               <p className="t-xsmall t-muted">
                 <a
                   className="no-effect"

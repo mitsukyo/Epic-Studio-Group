@@ -6748,6 +6748,7 @@ form textarea:required:valid {
 }
 .footer-blocks__title {
   position: relative;
+  padding-bottom: ;
 }
 .footer-blocks__title-m {
   font: normal var(--fw-medium) 3rem/1.2 var(--_font-accent);

@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import AnimatedButton from "../animation/AnimatedButton";
 import { usePathname } from "next/navigation";
 import ThemeSwitcherButton from "./ColorSwitcher";
 import Image from "next/image";
@@ -49,49 +48,21 @@ export default function Header1() {
     <header id="header" className={`mxd-header ${isHidden ? "is-hidden" : ""}`}>
       {/* header logo */}
       <div className="mxd-header__logo loading__fade">
-        <Link href={`/home-designer`} className="mxd-logo">
+        <Link href={`/home`} className="mxd-logo">
           {/* logo icon */}
           <Image
-            src={isDarkLogo ? "/img/favicon/Epic header W.png" : "/img/favicon/Epic header B.png"}
+            src={isDarkLogo ? "/img/favicon/epic-header-logo-b.svg" : "/img/favicon/epic-header-logo-w.svg"}
             alt="Epic Studio Group logo"
             width={110}
             height={110}
             className="mxd-logo__image mxd-logo__image--large"
             priority
           />
-          {/* logo text */}
-          {/* <span className="mxd-logo__text">
-            Epic Studio
-            <br />
-            Group
-          </span> */}
         </Link>
       </div>
       {/* header controls */}
       <div className="mxd-header__controls loading__fade">
         <ThemeSwitcherButton />
-
-        {/* {(
-          <AnimatedButton
-            text="Launch My Podcast"
-            className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
-            href="/"
-          >
-            <i className="ph-bold ph-arrow-up-right" />
-          </AnimatedButton>
-          
-        )}
-
-        {(
-          <AnimatedButton
-            text="I Need Post-Production"
-            className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
-            href="/"
-          >
-            <i className="ph-bold ph-arrow-up-right" />
-          </AnimatedButton>
-        )} */}
-        
       </div>
     </header>
   );
