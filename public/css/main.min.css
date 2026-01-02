@@ -6171,7 +6171,7 @@ form textarea:required:valid {
   background-position: left center;
   -moz-background-size: cover;
   background-size: cover;
-  background-image: url(/img/cta/cta_900x1440.webp);
+  background-image: url(/img/cta/cta_background.webp);
 }
 @media only screen and (min-width: 1200px) {
   .mxd-promo__bg {
